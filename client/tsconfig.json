@@ -1,0 +1,38 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    /* Basic Options */
+    "jsx": "react",
+    "noEmit": true,
+    "allowJs": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "isolatedModules": true,
+    "typeRoots": ["../node_modules/@types"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+
+    /* Experimental Options */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "importsNotUsedAsValues": "preserve",
+    "forceConsistentCasingInFileNames": true
+  }
+}

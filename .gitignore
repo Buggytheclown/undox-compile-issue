@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Vim
+*.swp
+.*.sw[ponm]
+
+# Secrets
+/.env
+
+# Logs
+*.log
+
+# Python
+*.pyc
+*.python-version
+
+# Node.js
+node_modules/
+
+# Artifacts
+__reports
+public/static/
+public/vendor/
+public/*.map
+public/*.ttf
+public/*.woff
+public/*.woff[2]
+public/*.eot
+public/bundle.*.js
+public/*.hot-update.json
+public/index.html
+public/style.css
+public/index.*.js
+public/index.*.*.css
+public/video.html
+public/video.*.js
+public/video.*.*.css
+public/storybook
+
+# Unknown
+run.sh
